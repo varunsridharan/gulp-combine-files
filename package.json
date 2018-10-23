@@ -1,0 +1,45 @@
+{
+	"name": "gulp-combine-files",
+	"version": "1.0.5",
+	"description": "This plugin will allow you to combine multiple JS files using (@gulp-append / @gulp-prepend / @gulp-inline)",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/varunsridharan/gulp-combine-files.git"
+	},
+	"author": {
+		"name": "Varun Sridharan",
+		"email": "varunsridharan23@gmail.com",
+		"url": "http://varunsridharan.in"
+	},
+	"dependencies": {
+		"gulp": "~3.9.1"
+	},
+	"keywords": [
+		"gulpplugin",
+		"prepros-append",
+		"combine-gulp-files",
+		"codekit-append",
+		"codekit-prepend",
+		"files-append",
+		"files-prepend",
+		"combine-js-files",
+		"combine-css-files",
+		"inline-combine-files",
+		"gulp-combine-js-files",
+		"gulp-combine-css-files",
+		"append-files",
+		"prepend-files"
+	],
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/varunsridharan/gulp-combine-files/issues"
+	},
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+	"homepage": "https://github.com/varunsridharan/gulp-combine-files#readme"
+}
