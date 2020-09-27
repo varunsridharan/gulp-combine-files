@@ -1,10 +1,17 @@
-# gulp-combine-files
+<p align="center">
+  <a href="http://gulpjs.com">
+    <img height="257" width="114" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png">
+  </a>
+</p>
+
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Gitter chat][gitter-image]][gitter-url]
+
+
+# Gulp Combine Files
 
 > This plugin will allow you to combine multiple JS files using (@gulp-append / @gulp-prepend / @gulp-inline)
 
 ## Getting Started
-This plugin requires Gulp `~0.4.5`
-
 If you haven't used [Gulp](http://gulpjs.com/) Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
@@ -21,12 +28,12 @@ var combine_files = require('gulp-combine-files');
 ### Usage
 
 ```js
-var gulp = require('gulp');
-var combine_files = require('gulp-combine-files');
+var gulp = require('gulp'),
+    combineFiles = require('gulp-combine-files');
 
 gulp.task('combine:test',function(){
 	return gulp.src("path_to_your_script_file")
-	.pipe(combine_files({
+	.pipe(combineFiles({
 	    append:'gulp-append',
 	    prepend:'gulp-prepend',
 	    inline:'gulp-inline',
@@ -121,3 +128,9 @@ If you, or your company, use any of my projects or like what I’m doing, kindly
 [license-img]: https://poser.pugx.org/varunsridharan/php-autoloader/license
 [composerlock-img]: https://poser.pugx.org/varunsridharan/php-autoloader/composerlock
 [wpcs-img]: https://img.shields.io/badge/WordPress-Standar-1abc9c.svg
+
+[downloads-image]: http://img.shields.io/npm/dm/gulp-combine-files.svg
+[npm-url]: https://www.npmjs.com/package/gulp-combine-files
+[npm-image]: http://img.shields.io/npm/v/gulp-combine-files.svg
+[gitter-url]: https://gitter.im/gulpjs/gulp
+[gitter-image]: https://badges.gitter.im/gulpjs/gulp.svg
