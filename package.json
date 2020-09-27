@@ -1,6 +1,6 @@
 {
 	"name": "gulp-combine-files",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "This plugin will allow you to combine multiple JS files using (@gulp-append / @gulp-prepend / @gulp-inline)",
 	"main": "index.js",
 	"scripts": {
