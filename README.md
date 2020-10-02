@@ -115,11 +115,6 @@ If you, or your company, use any of my projects or like what I’m doing, kindly
 [email]: https://sva.onl/email
 [website]: https://sva.onl/website/
 
-<!-- Private -->
-[composer]: https://sva.onl/composer/
-[downloadzip]:https://github.com/varunsridharan/vsp-framework/archive/master.zip
-[wpcsl]: https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/
-
 <!-- Poser -->
 [latest-stable-version-img]: https://poser.pugx.org/varunsridharan/php-autoloader/version
 [latest-Unstable-version-img]: https://poser.pugx.org/varunsridharan/php-autoloader/v/unstable
